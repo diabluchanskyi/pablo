@@ -30,6 +30,9 @@
 		body{
 			font-family:Lucida Grande,Lucida Sans,Arial,sans-serif
 		}
+		a img{
+			border-style:none;
+		}
 		h1,h2,h3,h4{
 			color:rgb(154, 81, 81);
 		}
@@ -52,13 +55,18 @@
 			margin-bottom: 1.1em;
 		}
 		#sponsors{
-			
 			margin-left:5px;
 			padding-left:1.1em;
 		}
 		#sponsor-list{
 			padding-left:1.2em;
 			list-style:none;
+			margin-top:1.1em;
+			margin-bottom:1.1em;
+		}
+		#sponsor-list li{
+			margin-top:1.1em;
+			margin-bottom:1.1em;
 		}
 		
 		
@@ -69,7 +77,7 @@
 <body>
 	<div id="header">
 		<a border="0" href="http://lostechies.com">
-		<img border="0" src="http://www.lostechies.com/cfs-file.ashx/__key/CommunityServer.Components.SiteFiles/Logo2.png">
+		<img src="http://www.lostechies.com/cfs-file.ashx/__key/CommunityServer.Components.SiteFiles/Logo2.png">
 		</a>
 	</div>
 	<div id="title-section">
@@ -198,10 +206,22 @@
 		<h3> Our Sponsors </h3>
 		<ul id="sponsor-list">
 			<li>
-				<img src="PEC_new_logo.png" width="187" height="52" alt="PEC New Logo"/>
+				<a href="http://www.pec.stedwards.edu/">
+					<img src="PEC_new_logo.png" width="187" height="52" alt="PEC New Logo"/>
+				</a>
+		   </li>
+			<li>
+				<a href="http://bing.com/">
+					<img src="bing.png" alt="Microsoft Bing"/>
+				</a>
 			</li>
+			<li>
+				<a href="http://theloungenet.com/">
+					<img src="http://d3ujx6swmbhgu8.cloudfront.net/lounge-logo.png" width="300" alt="The Lounge"/>
+				</a>
+			</li>
+
 		</ul>
-		
 	</div>
 </body>
 </html>
